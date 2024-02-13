@@ -1,6 +1,6 @@
 # go-htmlescape
 
-Package **htmlescape** provides tools for safely escaping text within HTML, replacing any "special-characters" into HTML entities.
+Package **htmlescape** provides tools for safely escaping text within HTML, replacing any special-characters into HTML-entities, for the Go programming language.
 
 ## Documention
 
