@@ -17,6 +17,14 @@ func TestAppendString(t *testing.T) {
 	}{
 		{
 			Bytes:    []byte("Hello world! 🙂 Take a look at this: "),
+			String:                                               "",
+			Expected: []byte("Hello world! 🙂 Take a look at this: "),
+		},
+
+
+
+		{
+			Bytes:    []byte("Hello world! 🙂 Take a look at this: "),
 			String:                                               "This is NOT <b>bold</b>!",
 			Expected: []byte("Hello world! 🙂 Take a look at this: This is NOT &lt;b&gt;bold&lt;/b&gt;!"),
 		},
