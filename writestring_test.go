@@ -5,7 +5,7 @@ import (
 
 	"bytes"
 
-	"sourcecode.social/reiver/go-htmlescape"
+	"github.com/reiver/go-htmlescape"
 )
 
 func TestWriteString(t *testing.T) {
