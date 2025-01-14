@@ -24,4 +24,4 @@ GOPROXY=direct go get https://sourcecode.social/reiver/go-htmlescape
 
 ## Author
 
-Package **htmlescape** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **htmlescape** was written by [Charles Iliya Krempeaux](http://reiver.link)
